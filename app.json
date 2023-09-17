@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "cosmox",
+    "slug": "cosmox",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/playstore.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Cosmox.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/playstore.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.juthugasai123.cosmox"
+    },
+    "web": {
+      "favicon": "./assets/playstore.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ba75b71-25db-421c-9b2a-f10a5fd8876f"
+      }
+    }
+  }
+}
